@@ -26,6 +26,6 @@ python -m ipykernel install --user --name=goes_kernel
 
 # Background
 
-The Southern Sierra Nevada SWE is a major source of streamflow for water resources management in California. Accurate SWE data is critical for making precise streamflow predictions, which assist water planners in water allocation decisions. Ground observation data, such as the SNOTEL datasets, are limited to specific locations, creating a need for accurate spatial predictions in areas without SNOTEL sites.
+Southern Sierra Nevada snow water equivalence (SWE) is a major source of streamflow for water resources management in California. Accurate SWE data is critical for making precise streamflow predictions, which assist water planners in water allocation decisions. Ground observation data, such as the SNOTEL datasets, are limited to specific locations, creating a need for accurate spatial predictions in areas without SNOTEL sites.
 
 Various studies have developed models using different inputs, such as observational and satellite data, to predict SWE in various regions of the US. The GOES satellite is a potential source of valuable information, but it has been underutilized in the past. This project aims to assess the feasibility of using GOES data across the contiguous United States (CONUS) as inputs to a CNN model for predicting SWE in different locations.
